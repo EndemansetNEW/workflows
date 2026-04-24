@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "jill-brick-12345-ca23f",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

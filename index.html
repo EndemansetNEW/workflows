@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Index</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #f4f4f4;
+    }
+    .container {
+      text-align: center;
+    }
+    button {
+      margin: 10px;
+      padding: 12px 24px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      border-radius: 6px;
+      background-color: #0078d7;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #005a9e;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button onclick="location.href='./web/wasm/index.html'">WASM</button>
+    <button onclick="location.href='./web/js/index.html'">JS</button>
+  </div>
+</body>
+</html>
